@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111;
+}
+
+.app {
+  width: 430px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #fffce6;
+  overflow: hidden;
+}
+
+/* HEADER */
+
+header {
+  height: 75px;
+  background: #fffce6;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+  gap: 45px;
+}
+
+header h2 {
+  font-size: 24px;
+  color: #202020;
+}
+
+.back-arrow {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+/* PROFILE AREA */
+
+.person-card {
+  position: relative;
+  background: #fffce6;
+}
+
+.profile-image {
+  height: 330px;
+  background: #86c6ca;
+  border-radius: 0 0 35px 35px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* SIMPLE PERSON ILLUSTRATION */
+
+.person {
+  position: absolute;
+  width: 250px;
+  height: 280px;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+/* face */
+
+.face {
+  position: absolute;
+  width: 105px;
+  height: 130px;
+  background: #ffc76d;
+  border-radius: 45% 45% 48% 48%;
+  left: 72px;
+  top: 55px;
+  z-index: 3;
+}
+
+.hair {
+  position: absolute;
+  width: 120px;
+  height: 75px;
+  background: #64191b;
+  border-radius: 65% 55% 30% 20%;
+  left: 65px;
+  top: 32px;
+  z-index: 4;
+}
+
+.eye {
+  position: absolute;
+  width: 20px;
+  height: 5px;
+  border-radius: 10px;
+  background: #481719;
+  top: 45px;
+}
+
+.left-eye {
+  left: 25px;
+}
+
+.right-eye {
+  right: 25px;
+}
+
+.mustache {
+  position: absolute;
+  width: 40px;
+  height: 15px;
+  background: #4b1517;
+  left: 33px;
+  top: 72px;
+  border-radius: 50%;
+}
+
+.beard {
+  position: absolute;
+  width: 80px;
+  height: 85px;
+  background: #713035;
+  left: 13px;
+  top: 90px;
+  border-radius: 15px 15px 45px 45px;
+  z-index: -1;
+}
+
+/* headphones */
+
+.headphones {
+  position: absolute;
+  width: 22px;
+  height: 90px;
+  background: #292929;
+  top: 82px;
+  z-index: 5;
+  border-radius: 8px;
+}
+
+.left-headphone {
+  left: 58px;
+}
+
+.right-headphone {
+  right: 58px;
+}
+
+/* CARD */
+
+.person-info {
+  position: relative;
+  width: 340px;
+  margin: -35px auto 0;
+  padding: 27px 20px 25px;
+  background: #fffce6;
+  border: 2px solid #f2e8bf;
+  border-radius: 22px;
+  text-align: center;
+  z-index: 10;
+}
+
+.person-info h1 {
+  font-size: 21px;
+  color: #181818;
+  margin-bottom: 5px;
+}
+
+.person-info h3 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.person-info p {
+  font-size: 16px;
+  line-height: 21px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.person-info button,
+.projects-header button {
+  border: none;
+  background: #ffd200;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.person-info button {
+  padding: 14px 25px;
+  font-size: 16px;
+}
+
+/* PROJECTS */
+
+.projects {
+  padding: 20px 25px 30px;
+}
+
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.projects-header h2 {
+  font-size: 20px;
+  color: #222;
+}
+
+.projects-header button {
+  padding: 10px 17px;
+  font-size: 14px;
+}
+
+/* PROJECT IMAGES */
+
+.project-list {
+  display: flex;
+  gap: 35px;
+  overflow: hidden;
+}
+
+.project {
+  min-width: 177px;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ddd;
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
