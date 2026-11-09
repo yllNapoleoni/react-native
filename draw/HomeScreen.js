@@ -11,7 +11,7 @@ export default function HomeScreen() {
     <View style={styles.container}>
 
       <Image
-        source={require('../../assets/tablet.png')}
+        source={require('laptop.png')}
         style={styles.image}
         resizeMode="cover"
       />
