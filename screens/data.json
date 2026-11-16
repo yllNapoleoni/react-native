@@ -1,0 +1,31 @@
+{
+    "popularproducts":[
+        {
+            "id":1,
+           "name":"ipad 10",
+           "category":"tablet",
+           "price":1200,
+           "image":"https://i.ebayimg.com/images/g/HD0AAOSwW-FlIF6f/s-l1200.jpg",
+           "desription":"lorem ipsum"
+           
+        },
+         {
+            "id":2,
+           "name":"iphone 18 ",
+           "category":"phone",
+           "price":1500,
+           "image":"https://article.images.consumerreports.org/image/upload/t_article_tout/v1790182380/prod/content/dam/CRO-images-2026/Electronics/CR-tech-Inlinehero-iphone-18-pro-handson-review-0926",
+           "desription":"lorem ipsum"
+           
+        },
+         {
+            "id":3,
+           "name":"samsung s24 ",
+           "category":"phone",
+           "price":1100, 
+           "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxmnhVCRVwATMlXgcVkbHeNqts6hvOXQiXTmuaQYYNSA&s",
+           "desription":"lorem ipsum"
+           
+        }
+    ]
+}
